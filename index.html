@@ -773,28 +773,61 @@
                     opacity: 1 !important;
                 }
             }
+            /* language */
+            .language {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 22px;
+            }
+            .language_default  {
+                color: #40484f;
+            }
+            .language_default.selected  {
+                color: #ff6d1f;
+            }
+            .language_title_vn {
+                padding: 0 0.5rem;
+                cursor: pointer;
+            }
+            .language_title_en {
+                border-left: 1px solid #40484f;
+                padding: 0 0 0 0.5rem;
+                cursor: pointer;
+            }
         </style>
     </head>
     
     <body>
         <div id="resume">
             <header id="header" class="clear">
-                <!-- <div class="language">
-                    <a class="language_title_vn language_default selected switchlang" data-lang="vi">
+                <div class="language" style="text-align: end;">
+                    <a class="language_title_vn language_default switchlang" data-lang="vi">
                         VNI
                     </a>
-                    <a class="language_title_en language_default switchlang" data-lang="en">
+                    <a class="language_title_en language_default selected switchlang" data-lang="en">
                         ENG
                     </a>
-                </div> -->
+                </div>
                 <div>
-                    <h1 class="name">Vu Thien Hai</h1>
-                    <h2 class="label">Software Engineer</h2>
+                    <h1 class="name">
+                        <span data-vi="Vũ Thiện Hải" 
+                            data-en="Vu Thien Hai">
+                        </span>
+                    </h1>
+                    <h2 class="label">
+                        <span data-vi="Kỹ sư phần mềm" 
+                            data-en="Software Engineer">
+                        </span>
+                        </h2>
                 </div>	
                 
                 <span class="location">
                     <span class="postalCode">70000,</span>
-                    <span class="city">Ho Chi Minh,</span> 
+                    <span class="city">
+                        <span data-vi="Hồ Chí Minh" 
+                            data-en="Ho Chi Minh">
+                        </span>,
+                    </span> 
                     <span class="countryCode">VN</span>
                 </span>
                 <div id="contact">
@@ -833,34 +866,50 @@
                             </span> 
                         </div>
                     </div>
-                    <!-- <div class="page__subtitle tran-df">
-                        <span data-vi="Vì Bạn xứng đáng" 
-                            data-en="You deserve the best"></span>
-                    </div> -->
                 </div>
             </header>
             <section class="section main-summary">
                 <section>
                     <div>
-                        <p>I&#39;m software engineer with nearly 2 years in Web development, testing across the complete development life cycle of product. 
-                            Handling complex features & coordination between different teams efficiently to deliver results. 
-                            Resourceful, adaptable, quick learner with an engaging personality and positive attitude. 
-                            Develop clean, quality code and graphical elements that meet project requirements and challenging schedules.
+                        <p>
+                            <span 
+                                data-vi="Là kỹ sư phần mền với gần 2 năm phát triển Web, thử nghiệm trên toàn bộ vòng đời phát triển hoàn chỉnh của sản phẩm. 
+                                Xử lý các tính năng phức tạp và phối hợp giữa các nhóm khác nhau một cách hiệu quả để mang lại kết quả. Tháo vát, dễ thích nghi, 
+                                học hỏi nhanh với tính cách hấp dẫn và thái độ tích cực. Phát triển mã chất lượng, sạch sẽ và các yếu tố đồ họa đáp ứng các yêu 
+                                cầu của dự án và lịch trình đầy thử thách." 
+                                data-en="I&#39;m software engineer with nearly 2 years in Web development, testing across the complete development life cycle of product. 
+                                Handling complex features & coordination between different teams efficiently to deliver results. 
+                                Resourceful, adaptable, quick learner with an engaging personality and positive attitude. 
+                                Develop clean, quality code and graphical elements that meet project requirements and challenging schedules.">
+                            </span>
                         </p>
                     </div>
                 </section>
             </section>
             <section class="section margin1">
                 <header>
-                    <h2 class='section-title'>Skills</h2>
+                    <h2 class='section-title'>
+                        <span 
+                            data-vi="Các kỹ năng" 
+                            data-en="Skills">
+                        </span>
+                    </h2>
                 </header>
                 <section id="skills">
                     <div class="item">
                         <h3 class="name">
-                            Programing languages
+                            <span 
+                                data-vi="Các ngôn ngữ lập trình" 
+                                data-en="Programing languages">
+                            </span>
                         </h3>
                         <div class="level intermediate">	
-                            <em>Intermediate</em>
+                            <em>
+                                <span 
+                                    data-vi="Trung bình" 
+                                    data-en="Intermediate">
+                                </span>
+                            </em>
                             <div class="bar"></div>
                         </div>
                         <ul class="keywords">
@@ -872,10 +921,18 @@
                     </div>
                     <div class="item">
                         <h3 class="name">
-                            Framework &amp; Tools
+                            <span 
+                                data-vi="Các framework và tool" 
+                                data-en="Framework &amp; Tools">
+                            </span>
                         </h3>
                         <div class="level intermediate">	
-                            <em>Intermediate</em>
+                            <em>
+                                <span 
+                                    data-vi="Trung bình" 
+                                    data-en="Intermediate">
+                                </span>
+                            </em>
                             <div class="bar"></div>
                         </div>
                         <ul class="keywords">
@@ -884,10 +941,18 @@
                     </div>
                     <div class="item">
                         <h3 class="name">
-                            Others
+                            <span 
+                                data-vi="Khác" 
+                                data-en="Others">
+                            </span>
                         </h3>
                         <div class="level intermediate">	
-                            <em>Intermediate</em>
+                            <em>
+                                <span 
+                                    data-vi="Trung bình" 
+                                    data-en="Intermediate">
+                                </span>
+                            </em>
                             <div class="bar"></div>
                         </div>
                         <ul class="keywords">
@@ -896,10 +961,18 @@
                     </div>
                     <div class="item">
                         <h3 class="name">
-                            Editor
+                            <span 
+                                data-vi="Trình biên dịch" 
+                                data-en="Editor">
+                            </span>
                         </h3>
                         <div class="level intermediate">	
-                            <em>Intermediate</em>
+                            <em>
+                                <span 
+                                    data-vi="Trung bình" 
+                                    data-en="Intermediate">
+                                </span>
+                            </em>
                             <div class="bar"></div>
                         </div>
                         <ul class="keywords">
@@ -914,33 +987,66 @@
             </section>
             <section class="section">
                 <header>
-                     <h2 class='section-title'>Work Experience <span class="item-count">(3)</span></h2>
+                     <h2 class='section-title'>
+                        <span 
+                            data-vi="Kinh nghiệm làm việc" 
+                            data-en="Work Experience">
+                        </span> <span class="item-count">(3)</span>
+                    </h2>
                 </header>
                 <section id="work">
                     <section class="work-item">
                         <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked"/>
                         <label for="work-item-0"></label>
                         <header>
-                            <div class="position">Collaborators</div>
+                            <div class="position">
+                                <span 
+                                    data-vi="Thực tập sinh" 
+                                    data-en="Interns">
+                                </span></div>
                             <div class="company">FPT Software</div>
-                            <div class="date"> <span class="startDate">October 2018</span>
-                                <span class="endDate"> - January 2019</span>
+                            <div class="date"> 
+                                <span class="startDate">
+                                    <span 
+                                        data-vi="Tháng 8 năm 2018" 
+                                        data-en="October 2018">
+                                    </span>
+                                </span>
+                                <span class="endDate"> - 
+                                    <span 
+                                        data-vi="Tháng 1 năm 2019" 
+                                        data-en="January 2019">
+                                    </span>
+                                </span>
                             </div>
                         </header>
                         <ul class="keywords">
-                            <li>Collaborators</li>
+                            <li>
+                                <span 
+                                    data-vi="Cộng tác viên" 
+                                    data-en="Collaborators">
+                                </span>
+                            </li>
                         </ul>
                         <div class="item" id="work-item">
                             <div class="summary">
                                 <p>
                                     <p>
-                                        Responsibilities:
+                                        <span 
+                                            data-vi="Trách nhiệm:" 
+                                            data-en="Responsibilities:">
+                                        </span>
                                     </p>
                                 </p>
                             </div>
                             <ul class="highlights">
                                 <li>
-                                  <p>Accounting guidelines used application.</p>
+                                    <p>
+                                        <span 
+                                            data-vi="Hướng dẫn kế toán được sử dụng ứng dụng." 
+                                            data-en="Accounting guidelines used application.">
+                                        </span>
+                                    </p>
                                 </li>
                             </ul>
                         </div>
@@ -949,10 +1055,26 @@
                         <input id="work-item-1" type="checkbox" class="toggle-item" checked="checked"/>
                         <label for="work-item-1"></label>
                         <header>
-                            <div class="position">Android Developer</div>
+                            <div class="position">
+                                <span 
+                                    data-vi="Lập trình Android" 
+                                    data-en="Android Developer">
+                                </span>
+                            </div>
                             <div class="company">TP Entertainment</div>
-                            <div class="date"> <span class="startDate">October 2020</span>
-                                <span class="endDate"> - March 2021</span>
+                            <div class="date"> 
+                                <span class="startDate">
+                                    <span 
+                                        data-vi="Tháng 10 năm 2020" 
+                                        data-en="October 2020">
+                                    </span>
+                                </span>
+                                <span class="endDate"> - 
+                                    <span 
+                                        data-vi="Tháng 3 năm 2021" 
+                                        data-en="March 2021">
+                                    </span>
+                                </span>
                             </div>
                         </header> 
                         <span class="website">
@@ -967,42 +1089,70 @@
                             <div class="summary">
                                 <p>
                                     <p>
-                                        TP Entertainment specializes in developing technology products 
-                                        on smartphone platforms, which are Mobile Games and Mobile Apps
+                                        <span 
+                                            data-vi="TP Entertainment là công ty chuyên phát triển sản phẩm công nghệ 
+                                            trên nền smartphone: Mobile Games và Mobile apps." 
+                                            data-en="TP Entertainment specializes in developing technology products 
+                                            on smartphone platforms, which are Mobile Games and Mobile Apps.">
+                                        </span>
                                     </p>
                                     <p>
-                                        Responsibilities:
+                                        <span 
+                                            data-vi="Trách nhiệm:" 
+                                            data-en="Responsibilities:">
+                                        </span>
                                     </p>
                                 </p>
                             </div>
                             <ul class="highlights">
                                 <li>
                                     <p>
-                                      Developer maintenance, participate in creating functions, update 
-                                      logic features.
+                                        <span 
+                                            data-vi="Bảo trì phát triển, tham gia vào việc tạo mới tính năng, 
+                                            cập nhật các tính năng yêu cầu logic." 
+                                            data-en="Developer maintenance, participate in creating functions, update 
+                                            logic features.">
+                                        </span>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        Update features ads google for the app.
+                                        <span 
+                                            data-vi="Cập nhật tính năng quảng cáo google cho ứng dụng." 
+                                            data-en="Update features ads google for the app.">
+                                        </span>
                                     </p>
                                 </li>
                                 <li>
-                                    <p>Follow the design and review the code.</p>
+                                    <p>
+                                        <span 
+                                            data-vi="Làm theo thiết kế và kiểm tra lại mã." 
+                                            data-en="Follow the design and review the code.">
+                                        </span>
+                                    </p>
                                 </li>
                                 <li>
-                                    <p>Support other teams in the company to fix the problem.</p>
+                                    <p>
+                                        <span 
+                                            data-vi="Hỗ trợ các đội khác trong công ty khắc phục lỗi ứng dụng." 
+                                            data-en="Support other teams in the company to fix the bug.">
+                                        </span>
+                                    </p>
                                 </li>
                             </ul>
                         </div>
                         <section class="section">
                             <header>
-                                 <h2 class='section-title'>Projects <span class="item-count">(1)</span></h2>
+                                 <h2 class='section-title'>
+                                    <span 
+                                        data-vi="Dự án" 
+                                        data-en="Projects">
+                                    </span> 
+                                <span class="item-count">(1)</span></h2>
                             </header>
                             <section id="projects">
                                 <section class="project-item">
-                                    <input id="project-item-0" type="checkbox" class="toggle-item" checked="checked"
-                                    />
+                                    <input id="project-item-0" type="checkbox" class="toggle-item" checked="checked"/>
                                     <label for="project-item-0"></label>
                                     <header>
                                         <div class="position">Ringtone App</div>
@@ -1016,52 +1166,94 @@
                                         <div class="summary">
                                             <p>
                                                 <p>
-                                                    A mobile application that supports the setting of the music that 
-                                                    the customer wants as a ringtone with many languages and music 
-                                                    according to the country that the user chooses.
+                                                    <span 
+                                                        data-vi="Là ứng dụng di động hỗ trợ cài đặt bản nhạc mà khách hàng mong muốn 
+                                                        cài đặt làm nhạc chuông với nhiều ngôn ngữ và bản nhạc theo quốc gia mà người 
+                                                        dùng lựa chọn." 
+                                                        data-en="A mobile application that supports the setting of the music that 
+                                                        the customer wants as a ringtone with many languages and music 
+                                                        according to the country that the user chooses.">
+                                                    </span> 
                                                 </p>
                                             </p>
                                         </div>
                                         <ul class="highlights">
                                             <li>
                                                 <p>
-                                                    Responsible for development and quality versions mobile application.
+                                                    <span 
+                                                        data-vi="Chịu trách nhiệm phát triển và đánh giá chất lượng các phiên bản ứng dụng di động." 
+                                                        data-en="Responsible for development and quality versions mobile application.">
+                                                    </span>
                                                 </p>
                                             </li>
                                             <li>
                                                 <p>
-                                                    Support updating the interface as required by 
-                                                    the teams in the company.
+                                                    <span 
+                                                        data-vi="Hỗ trợ cập nhật giao diện theo yêu cầu của các đội trong công ty." 
+                                                        data-en="Support updating the interface as required by 
+                                                        the teams in the company.">
+                                                    </span>
                                                 </p>
                                             </li>
                                             <li>
-                                                <p>Responsibilities:</p>
                                                 <p>
-                                                    - As a developer, I participate in a product team with 
-                                                    Agile/Scrum development process.
+                                                    <span 
+                                                        data-vi="Trách nhiệm:" 
+                                                        data-en="Responsibilities:">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Do work breakdown structure for User Story, 
-                                                    define impact, implement new features.
+                                                    <span 
+                                                        data-vi="- Là một nhà phát triển, tôi tham gia vào một nhóm sản 
+                                                        phẩm với quy trình phát triển Agile / Scrum." 
+                                                        data-en="- As a developer, I participate in a product team with 
+                                                        Agile/Scrum development process.">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Collaborate with the customer support team 
-                                                    to analyze and fix issues in production.
+                                                    <span 
+                                                        data-vi="- Làm cấu trúc phân tích công việc cho User Story, 
+                                                        xác định tác động, triển khai các tính năng mới." 
+                                                        data-en="- Do work breakdown structure for User Story, 
+                                                        define impact, implement new features.">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Do code review together in the team.
+                                                    <span 
+                                                        data-vi="- Phối hợp với nhóm hỗ trợ khách hàng để phân 
+                                                        tích và khắc phục các vấn đề trong quá trình chạy thự tế." 
+                                                        data-en="- Collaborate with the customer support team 
+                                                        to analyze and fix issues in production.">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Develop a large scale widget in a mono repo.
+                                                    <span 
+                                                        data-vi="Trách nhiệm:" 
+                                                        data-en="- Do code review together in the team.">
+                                                    </span>
+                                                </p>
+                                                <p>
+                                                    <span 
+                                                        data-vi="- Cùng nhau xem lại mã trong nhóm." 
+                                                        data-en="- Develop a large scale widget in a mono repo.">
+                                                    </span>
                                                 </p>
                                             </li>
                                             <li>
-                                                <p>Technical stacks:</p>
+                                                <p>
+                                                    <span 
+                                                        data-vi="Công nghệ sử dụng:" 
+                                                        data-en="Technical stacks:">
+                                                    </span>
+                                                </p>
                                                 <p>
                                                     - Android, Java, Kotlin
                                                 </p>
                                                 <p>
-                                                    - Use MVVM model
+                                                    <span 
+                                                        data-vi="- Có hiểu biết về mô hình MVVM" 
+                                                        data-en="- Knowledge MVVM model">
+                                                    </span>
                                                 </p>
                                             </li>
                                         </ul>
@@ -1076,13 +1268,27 @@
                         <label for="work-item-2"></label>
                         <header>
                             <div class="position">
-                                Web Developer
+                                <span 
+                                    data-vi="Lập trình Web" 
+                                    data-en="Web Developer">
+                                </span>
                             </div>
                             <div class="company">
                                 Mirae Asset
                             </div>
-                            <div class="date"> <span class="startDate">May 2021</span>
-                                <span class="endDate"> - May 2022</span>
+                            <div class="date"> 
+                                <span class="startDate">
+                                    <span 
+                                        data-vi="Tháng 5 năm 2021" 
+                                        data-en="May 2021">
+                                    </span>
+                                </span>
+                                <span class="endDate"> - 
+                                    <span 
+                                        data-vi="Tháng 5 năm 2022" 
+                                        data-en="May 2022">
+                                    </span>
+                                </span>
                             </div>
                         </header> 
                         <span class="website">
@@ -1098,33 +1304,53 @@
                             <div class="summary">
                                 <p>
                                     <p>
-                                        Mirae Asset is a securities joint-stock company the leading 
-                                        comprehensive securities service provider in Vietnam
+                                        <span 
+                                            data-vi="Mirae Asset là công ty cổ phần chứng khoán cung cấp dịch vụ 
+                                            chứng khoán toàn diện hàng đầu tại Việt Nam" 
+                                            data-en="Mirae Asset is a securities joint-stock company the leading 
+                                            comprehensive securities service provider in Vietnam">
+                                        </span>
                                     </p>
                                     <p>
-                                        Responsibilities:
+                                        <span 
+                                            data-vi="Trách nhiệm:" 
+                                            data-en="Responsibilities:">
+                                        </span>
                                     </p>
                                 </p>
                             </div>
                             <ul class="highlights">
                                 <li>
-                                  <p>
-                                      Implement new feature and release them with a plan on production.
-                                    </p>
-                                </li>
-                                <li>
-                                  <p>
-                                      Maintain issues and refactor old code.
+                                    <p>
+                                        <span 
+                                            data-vi="Triển khai tính năng mới và phát hành chúng cùng theo kế hoạch phát triển." 
+                                            data-en="Implement new feature and release them with a plan on production.">
+                                        </span>
+                                      
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        Do detail design and code review.
+                                        <span 
+                                            data-vi="Duy trì các vấn đề và cấu trúc lại mã cũ." 
+                                            data-en="Maintain issues and refactor old code.">
+                                        </span>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        Support incidents.
+                                        <span 
+                                            data-vi="Làm theo thiết kế được giao và đánh giá code." 
+                                            data-en="Do detail design and code review.">
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span 
+                                            data-vi="Hỗ trợ các sự cố." 
+                                            data-en="Support incidents.">
+                                        </span>
                                     </p>
                                 </li>
                             </ul>
@@ -1132,7 +1358,10 @@
                         <section class="section">
                             <header>
                                 <h2 class='section-title'>
-                                    Projects 
+                                    <span 
+                                        data-vi="Các dự án " 
+                                        data-en="Projects ">
+                                    </span>
                                     <span class="item-count">(4)</span>
                                 </h2>
                             </header>
@@ -1146,6 +1375,9 @@
                                             Home Page
                                         </div>
                                     </header> 
+                                    <span class="website">
+                                        <a target="_blank" href="https://masvn.com/">https://masvn.com/</a>
+                                    </span> 
                                     <ul class="keywords">
                                         <li>css</li>
                                         <li>html</li>
@@ -1157,71 +1389,122 @@
                                         <div class="summary">
                                             <p>
                                                 <p>
-                                                    A website to display the company's introduction and 
-                                                    support for the marketing team to introduce and use 
-                                                    the company's pages and applications.
+                                                    <span 
+                                                        data-vi="Một trang web để hiển thị phần giới thiệu của công ty 
+                                                        và hỗ trợ phòng ban marketing giới thiệu và sử dụng các trang 
+                                                        và ứng dụng của công ty." 
+                                                        data-en="A website to display the company's introduction and 
+                                                        support for the marketing team to introduce and use 
+                                                        the company's pages and applications.">
+                                                    </span>
                                                 </p>
                                             </p>
                                         </div>
                                         <ul class="highlights">
                                             <li>
                                                 <p>
-                                                    Responsible for development and quality both versions 
-                                                    web application and mobile web application.
+                                                    <span 
+                                                        data-vi="Chịu trách nhiệm phát triển và chất lượng cả hai phiên 
+                                                        bản ứng dụng web và ứng dụng web di động." 
+                                                        data-en="Responsible for development and quality both versions 
+                                                        web application and mobile web application.">
+                                                    </span>
                                                 </p>
                                             </li>
                                             <li>
                                                 <p>
-                                                    Support updating the interface as required by the teams 
-                                                    in the company.
+                                                    <span 
+                                                        data-vi="Hỗ trợ cập nhật giao diện theo yêu cầu của các phòng 
+                                                        ban trong công ty." 
+                                                        data-en="Support updating the interface as required by the teams 
+                                                        in the company.">
+                                                    </span>
+                                                    
                                                 </p>
                                             </li>
                                             <li>
                                                 <p>
-                                                    Apply EKYC to verify ID, with FPT partners in online Open 
-                                                    Account.
+                                                    <span 
+                                                        data-vi="Mở tài khoản trực tuyến: Sử dụng EKYC của đối tác bên thứ 3 (FPT) để kiểm tra CMND" 
+                                                        data-en="Open Account online: Use EKYC of 3rd party partners (FPT) to check ID card">
+                                                    </span>
                                                 </p>
                                             </li>
                                             <li>
                                                 <p>
-                                                    Responsibilities:
+                                                    <span 
+                                                        data-vi="Trách nhiệm" 
+                                                        data-en="Responsibilities:">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - As a developer, I participate in a product team with 
-                                                    Agile/Scrum development process.
+                                                    <span 
+                                                        data-vi="- Là một nhà phát triển, tôi tham gia vào một nhóm sản 
+                                                        phẩm với quy trình phát triển Agile / Scrum." 
+                                                        data-en="- As a developer, I participate in a product team with 
+                                                        Agile/Scrum development process.">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Do work breakdown structure for User Story, define 
-                                                    impact, implement new features.
+                                                    <span 
+                                                        data-vi="- Làm cấu trúc phân tích công việc cho User Story, 
+                                                        xác định tác động, triển khai các tính năng mới." 
+                                                        data-en="- Do work breakdown structure for User Story, 
+                                                        define impact, implement new features.">
+                                                    </span>
+                                                    
                                                 </p>
                                                 <p>
-                                                    - Collaborate with the customer support team to analyze 
-                                                    and fix issues in production.
+                                                    <span 
+                                                        data-vi="- Phối hợp với nhóm hỗ trợ khách hàng để phân tích và khắc 
+                                                        phục các vấn đề trong quá trình triển khai dự án." 
+                                                        data-en="- Collaborate with the customer support team to analyze 
+                                                        and fix issues in production.">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Do code review together in the team.
+                                                    <span 
+                                                        data-vi="- Đánh giá code của nhau trong phòng ban." 
+                                                        data-en="- Do code review together in the team.">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Develop a large scale widget in a mono repo.
+                                                    <span 
+                                                        data-vi="- Phát triển một widget quy mô lớn trong một đơn repo." 
+                                                        data-en="- Develop a large scale widget in a mono repo.">
+                                                    </span>
                                                 </p>
                                             </li>
                                             <li>
                                                 <p>
-                                                    Technical stacks:
+                                                    <span 
+                                                        data-vi="Công nghệ sử dụng:" 
+                                                        data-en="Technical stacks:">
+                                                    </span>
                                                 </p>
                                                 <p>
                                                     - Frontend: HTML5, CSS3, JavaScript, JQuery, VueJs,
                                                     NuxtJs, NPM/Yarn, ui components, styled component.
                                                 </p>
                                                 <p>
-                                                    - Developing integration solutions by using REST APIs
+                                                    <span 
+                                                        data-vi="- Phát triển các giải pháp tích hợp bằng cách sử dụng các API REST" 
+                                                        data-en="- Developing integration solutions by using REST APIs">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Capable of using and understanding  Vuejs 3rd party 
-                                                    libraries, packages to develop applications.
+                                                    <span 
+                                                        data-vi="- Có khả năng sử dụng và hiểu biết các thư viện, 
+                                                        gói phần mềm của bên thứ 3 của Vuejs để phát triển ứng dụng." 
+                                                        data-en="- Capable of using and understanding Vuejs 3rd party 
+                                                        libraries, packages to develop applications.">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Using Data visualization chart library for report features.
+                                                    <span 
+                                                        data-vi="- Sử dụng thư viện biểu đồ trực quan hóa dữ liệu cho các tính năng báo cáo." 
+                                                        data-en="- Using Data visualization chart library for report features.">
+                                                    </span>
                                                 </p>
                                             </li>
                                         </ul>
@@ -1246,28 +1529,47 @@
                                         <div class="summary">
                                             <p>
                                                 <p>
-                                                    A website used to manage and export excel files.
+                                                    <span 
+                                                        data-vi="Một trang web được sử dụng để quản lý OTP và xuất các tệp excel." 
+                                                        data-en="A website used to manage OTP and export excel files.">
+                                                    </span>
                                                 </p>
                                             </p>
                                         </div>
                                         <ul class="highlights">
                                             <li>
                                                 <p>
-                                                    Responsibilities:
+                                                    <span 
+                                                        data-vi="Trách nhiệm:" 
+                                                        data-en="Responsibilities:">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Develop a time management website to get SMS OTP, 
-                                                    change the method of using OTP (Smart OTP or SMS OTP), 
-                                                    unlock locked accounts.
+                                                    <span 
+                                                        data-vi="- Xây dựng website quản lý thời gian lấy SMS OTP, 
+                                                        thay đổi phương thức sử dụng OTP (Smart OTP hoặc SMS OTP), 
+                                                        mở khóa tài khoản bị khóa." 
+                                                        data-en="- Develop a time management website to get SMS OTP, 
+                                                        change the method of using OTP (Smart OTP or SMS OTP), 
+                                                        unlock locked accounts.">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Export to excel file the amount of OTP usage of the 
-                                                    account with the time of import
+                                                    <span 
+                                                        data-vi="- Kết xuất ra file excel số lượng sử dụng OTP của tài 
+                                                        khoản với thời điểm nhập." 
+                                                        data-en="- Export to excel file the amount of OTP usage of the 
+                                                        account with the time of import.">
+                                                    </span>
+                                                    
                                                 </p>
                                             </li>
                                             <li>
                                                 <p>
-                                                    Technical stacks:
+                                                    <span 
+                                                        data-vi="Công nghệ sử dụng:" 
+                                                        data-en="Technical stacks:">
+                                                    </span>
                                                 </p>
                                                 <p>
                                                     - HTML5, CSS3, Vue3, sheetJs, bootstrap.
@@ -1285,6 +1587,11 @@
                                             Rewards Page
                                         </div>
                                     </header> 
+                                    <span class="website">
+                                        <a target="_blank" href="https://testmasrewards.masvn.com/">
+                                            https://testmasrewards.masvn.com/
+                                        </a>
+                                    </span> 
                                     <ul class="keywords">
                                         <li>HTML5</li>
                                         <li>CSS3</li>
@@ -1296,23 +1603,36 @@
                                         <div class="summary">
                                             <p>
                                                 <p>
-                                                    A static website to reward customers.
+                                                    <span 
+                                                        data-vi="Một trang web tĩnh để tri ân cho khách hàng." 
+                                                        data-en="A static website to thank customers.">
+                                                    </span>
                                                 </p>
                                             </p>
                                         </div>
                                         <ul class="highlights">
                                             <li>
                                                 <p>
-                                                    Responsibilities:
+                                                    <span 
+                                                        data-vi="Trách nhiệm" 
+                                                        data-en="Responsibilities:">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Develop a static website of the company 
-                                                    to thank customers.
+                                                    <span 
+                                                        data-vi="- Phát triển trang web tĩnh của công ty để 
+                                                        tri ân khách hàng." 
+                                                        data-en="- Develop a static website of the company 
+                                                        to thank customers.">
+                                                    </span>
                                                 </p>
                                             </li>
                                             <li>
                                                 <p>
-                                                    Technical stacks:
+                                                    <span 
+                                                        data-vi="Công nghệ sử dụng:" 
+                                                        data-en="Technical stacks:">
+                                                    </span>
                                                 </p>
                                                 <p>
                                                     - HTML5, CSS3, bootstrap, SCSS, JavaScript, Jquery.
@@ -1346,22 +1666,37 @@
                                         <div class="summary">
                                             <p>
                                                 <p>
-                                                    A website to competition organization customers.
+                                                    <span 
+                                                        data-vi="Một trang web tổ chức đăng ký thi đấu và giới thiệu 
+                                                        thể lệ thi đấu cho khách hàng của công ty." 
+                                                        data-en="A website that organizes competition registration 
+                                                        and introduces competition rules to the company's customers.">
+                                                    </span>
                                                 </p>
                                             </p>
                                         </div>
                                         <ul class="highlights">
                                             <li>
                                                 <p>
-                                                    Responsibilities:
+                                                    <span 
+                                                        data-vi="Trách nhiệm" 
+                                                        data-en="Responsibilities:">
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    - Maintain issues and refactor old code.
+                                                    <span 
+                                                        data-vi="- Bảo trì các tính năng và cấu trúc lại code cũ" 
+                                                        data-en="- Maintain issues and refactor old code.">
+                                                    </span>
+                                                    
                                                 </p>
                                             </li>
                                             <li>
                                                 <p>
-                                                    Technical stacks:
+                                                    <span 
+                                                        data-vi="Công nghệ sử dụng:" 
+                                                        data-en="Technical stacks:">
+                                                    </span>
                                                 </p>
                                                 <p>
                                                     - HTML5, CSS3, bootstrap, SCSS, JavaScript, Jquery.
@@ -1377,7 +1712,10 @@
             <section class="section">
                 <header>
                     <h2 class='section-title'>
-                        Education 
+                        <span 
+                            data-vi="Học vấn" 
+                            data-en="Education">
+                        </span>
                         <span class="item-count">
                             (1)
                         </span>
@@ -1388,13 +1726,22 @@
                         <header class="clear">
                             <div class="header-left">
                                 <div class="studyType">
-                                    Bachelor
+                                    <span 
+                                        data-vi="Cử nhân" 
+                                        data-en="Bachelor">
+                                    </span>
                                 </div>
                                 <div class="area">
-                                    Software Engineer
+                                    <span 
+                                        data-vi="Kỹ sư phần mềm" 
+                                        data-en="Software Engineer">
+                                    </span>
                                 </div>
                                 <div class="institution">
-                                    FPT University
+                                    <span 
+                                        data-vi="Đại học FPT" 
+                                        data-en="FPT University">
+                                    </span>
                                 </div>
                             </div>
                             <div class="date"> 
@@ -1409,18 +1756,27 @@
             <section class="section margin1">
                 <header>
                      <h2 class='section-title'>
-                         Languages
-                        </h2>
+                        <span 
+                            data-vi="Ngôn ngữ" 
+                            data-en="Languages">
+                        </span>
+                    </h2>
                 </header>
                 <section id="languages">
                     <div class="display">
                         <h3 class="language">
-                            Vietnamese
+                            <span 
+                                data-vi="Tiếng Việt" 
+                                data-en="Vietnamese">
+                            </span>
                         </h3>
                         <div class="item">
                             <div class="level fluency native speaker"> 
                                 <em>
-                                    Native speaker
+                                    <span 
+                                        data-vi="Người bản ngữ" 
+                                        data-en="Native speaker">
+                                    </span>
                                 </em>
                                 <div class="bar"></div>
                             </div>
@@ -1428,12 +1784,18 @@
                     </div>
                     <div class="display">
                         <h3 class="language">
-                            English
+                            <span 
+                                data-vi="Tiếng Anh" 
+                                data-en="English">
+                            </span>
                         </h3>
                         <div class="item">
                             <div class="level fluency intermediate"> 
                                 <em>
-                                    Intermediate
+                                    <span 
+                                        data-vi="Trung bình" 
+                                        data-en="Intermediate">
+                                    </span>
                                 </em>
                                 <div class="bar"></div>
                             </div>
@@ -1444,23 +1806,35 @@
             <section class="section margin1">
                 <header>
                     <h2 class='section-title' class='section-title'>
-                        Interests
+                        <span 
+                            data-vi="Sở thích" 
+                            data-en="Interests">
+                        </span>
                     </h2>
                 </header>
                 <section id="interests">
                     <div class="item">
                         <h3 class="name">
-                            Movies
+                            <span 
+                                data-vi="Xem phim" 
+                                data-en="Movies">
+                            </span>
                         </h3>
                     </div>
                     <div class="item">
                         <h3 class="name">
-                            Gym
+                            <span 
+                                data-vi="Tập gym" 
+                                data-en="Gym">
+                            </span>
                         </h3>
                     </div>
                     <div class="item">
                         <h3 class="name">
-                            Music
+                            <span 
+                                data-vi="Nghe nhạc" 
+                                data-en="Music">
+                            </span>
                         </h3>
                     </div>
                 </section>
@@ -1477,7 +1851,7 @@
         });
     }
 
-    switchLang("vi");
+    switchLang("en");
 
     $(".switchlang").click(function() {
         switchLang($(this).data("lang"))
