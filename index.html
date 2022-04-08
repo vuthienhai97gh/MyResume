@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"
         />
-        <title>Hai Vu - Software Engineer</title>
+        <title></title>
         <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/25/25231.png"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -1856,6 +1856,15 @@
 
     $(".switchlang").click(function() {
         switchLang($(this).data("lang"))
+        if ($(this).data("lang") === "en") {
+            $(document).ready(function() {
+                document.title = 'Hai Vu - Software Engineer';
+            });
+        } if ($(this).data("lang") === "vi") {
+            $(document).ready(function() {
+                document.title = 'Vũ Thiện Hải - Lập trình viên';
+            });
+        }
     });
 </script>
 <script>
